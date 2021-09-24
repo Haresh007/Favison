@@ -1,0 +1,193 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+/* Show it is fixed to the top */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_banner_area {
+    background-image: url(./header_bg.jpg);
+    height: 100vh;
+}
+
+
+/* body {
+    
+} */
+
+.banner_content {
+    margin-top: 272px;
+}
+
+@media(max-width:1199px) {
+    .gm {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:991px) {
+    .gm {
+        margin-left: 100px;
+    }
+}
+
+.circle1 {
+    position: absolute;
+    background-color: #FCA6A6;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    /* z-index: ; */
+}
+
+.circle2 {
+    position: absolute;
+    background-color: #71BEB4;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.circle3 {
+    position: absolute;
+    background-color: #ED92DD;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+
+/*
+.navbar {
+    font-size: 15px;
+    margin: 0px auto;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}*/
+
+.bg_image {
+    padding: 0px;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {
+    position: relative;
+}
+
+.efx {
+    height: 50px;
+}
+
+.card {
+    /* border: 2px solid black; */
+}
+
+.fas {
+    position: relative;
+    margin: 0px auto;
+    font-size: 40px;
+}
+
+.rel {
+    position: relative;
+}
+
+.font {
+    position: relative;
+    font-size: 35px;
+}
+
+.fab {
+    margin: 0px auto;
+    font-size: 40px;
+}
+
+.far {
+    margin: 0px auto;
+    font-size: 40px;
+}
+
+.bg {
+    background-color: #2B237C;
+}
+
+.circle_1 {
+    position: absolute;
+    background-color: #FCA6A6;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.circle_2 {
+    position: absolute;
+    background-color: #71BEB4;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.rec_circle {
+    position: absolute;
+}
+
+.head {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.sm_fnt {
+    font-size: 14px;
+}
+
+.hov:hover {
+    color: #F84B67;
+}
+
+.big {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.stock {
+    position: relative;
+}
+
+.fa-shopping-cart {
+    font-size: 25px;
+}
+
+.fa-fill-drip {
+    font-size: 20px;
+    color: #FCB6C4;
+}
+
+.fa-check-square {
+    font-size: 20px;
+    color: #71BEC4;
+}
+
+.fa-pencil-ruler {
+    font-size: 20px;
+    color: #ED92DD;
+}
+
+.ft_bg {
+    background-color: #1F2338;
+}
+
+.gray {
+    color: #7B8387;
+}
